@@ -1,4 +1,4 @@
-# Minecraft_Bear_code
+# Minecraft-Bear-code
 Minecraft bear
 
 ![Екранна снимка 2023-08-24 223448](https://github.com/HROMAFOX/Minecraft_Bear_code/assets/113515660/73bbf355-6195-4b1c-8548-de1f1b3f1d79)
