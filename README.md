@@ -20,8 +20,8 @@ Minecraft bear
 
 
 
-<pre class="wp-block-code">
-<code>🍻Команден блок 1(Repeat/Unconditional/Always Active) 
+
+`<code>🍻Команден блок 1(Repeat/Unconditional/Always Active) 
 /execute as @e[type=player, nbt={Inventory:[{Slot:-106b, id:"minecraft:player_head", tag:{display:{Name:"{\"text\":\"Mug with Beer\",\"color\":\"white\"}", Lore:['{"color":"yellow","text":"с 15% алкохол"}','{"color":"green","text":"Пие се с F"}']}}}]}] at @s run playsound minecraft:entity.generic.drink player @s ~ ~ ~ 0.65 1 0
 
 🍻Команден блок 2(Chain/Conditional/Always Active) 
@@ -49,5 +49,4 @@ Minecraft bear
 /scoreboard objectives add BeerDrinking dummy
 
 🍻Обикновен Команден блок с бутон за взимане на бирата! 
-/summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"{\"text\":\"Mug with Beer\",\"color\":\"white\"}", Lore:['{"color":"yellow","text":"с 15% алкохол"}','{"color":"green","text":"Пие се с F"}']},SkullOwner:{Id:[I;-1513351130,1351370996,-1551837317,-2013369534],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1M2UyNjg2N2JiNTc1MzhlOTc4OTEzN2RiYmI1Mzc3NGUxOGVkYTZmZWY1MWNiMmVkZjQyNmIzNzI2NCJ9fX0="}]}}}}}
-</code></pre>
+/summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"{\"text\":\"Mug with Beer\",\"color\":\"white\"}", Lore:['{"color":"yellow","text":"с 15% алкохол"}','{"color":"green","text":"Пие се с F"}']},SkullOwner:{Id:[I;-1513351130,1351370996,-1551837317,-2013369534],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1M2UyNjg2N2JiNTc1MzhlOTc4OTEzN2RiYmI1Mzc3NGUxOGVkYTZmZWY1MWNiMmVkZjQyNmIzNzI2NCJ9fX0="}]}}}}}`
