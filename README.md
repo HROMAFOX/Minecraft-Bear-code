@@ -28,7 +28,7 @@ Minecraft bear
 /execute as @e[type=player, nbt={Inventory:[{Slot:-106b, id:"minecraft:player_head", tag:{display:{Name:"{\"text\":\"Mug with Beer\",\"color\":\"white\"}", Lore:['{"color":"yellow","text":"с 15% алкохол"}','{"color":"green","text":"Пие се с F"}']}}}]}] at @s run scoreboard players add @s BeerDrinking 1
 
 🍻Команден блок 3(Chain/Conditional/Always Active) 
-/execute as @e[type=player, scores={BeerDrinking=5..}] at @s run clear @s minecraft:player_head{display:{Name:"{\"text\":\"Mug with Beer\",\"color\":\"white\"}", Lore:['{"color":"yellow","text":"с 15% алкохол"}','{"color":"green","text":"Пие се с F"}']}} 1
+/execute as @e[type=player, scores={BeerDrinking=20..}] at @s run clear @s minecraft:player_head{display:{Name:"{\"text\":\"Mug with Beer\",\"color\":\"white\"}", Lore:['{"color":"yellow","text":"с 15% алкохол"}','{"color":"green","text":"Пие се с F"}']}} 1
 
 🍻Команден блок 4(Chain/Conditional/Always Active) 
 /execute as @e[type=player, scores={BeerDrinking=5..}] at @s run give @s minecraft:player_head{display:{Name:"{\"text\":\"Empty Mug\",\"color\":\"white\"}", Lore:['{"color":"green","text":"напълни ме"}']},SkullOwner:{Id:[I;1176276444,967657176,-1996008735,-1173811510],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y1NmEyNmE5NDljMTMzYWI5NTAyMTFkZGRhZmViMjU1MWMwNTJlMWNmZmY2MTcyZmM2OGNkYTMyMTliMDg0In19fQ=="}]}}} 1
