@@ -49,5 +49,5 @@ Minecraft bear
 /scoreboard objectives add BeerDrinking dummy
 
 🍻Обикновен Команден блок с бутон за взимане на бирата! 
-/summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"{\"text\":\"Mug with Beer\",\"color\":\"white\"}", Lore:['{"color":"yellow","text":"с 15% алкохол"}','{"color":"green","text":"Пие се с F"}']},SkullOwner:{Id:[I;-1513351130,1351370996,-1551837317,-2013369534],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1M2UyNjg2N2JiNTc1MzhlOTc4OTEzN2RiYmI1Mzc3NGUxOGVkYTZmZWY1MWNiMmVkZjQyNmIzNzI2NCJ9fX0="}]}}}}}`
+/summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"{\"text\":\"Mug with Beer\",\"color\":\"white\"}", Lore:['{"color":"yellow","text":"с 15% алкохол"}','{"color":"green","text":"Пие се с F"}']},SkullOwner:{Id:[I;-1513351130,1351370996,-1551837317,-2013369534],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1M2UyNjg2N2JiNTc1MzhlOTc4OTEzN2RiYmI1Mzc3NGUxOGVkYTZmZWY1MWNiMmVkZjQyNmIzNzI2NCJ9fX0="}]}}}}}
 </code></pre>
